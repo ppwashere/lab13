@@ -18,4 +18,11 @@ class mainTest {
 		int actaul = fizzbuzz.checkBuzzFizz(1);
 		assertEquals(1, actaul);
 	}
+	@Test
+	@DisplayName("TC2: mod 3 number")
+	void testModThreeNumber() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		int actaul = fizzbuzz.checkBuzzFizz(3);
+		assertEquals("Fizz", actaul);
+	}
 }
