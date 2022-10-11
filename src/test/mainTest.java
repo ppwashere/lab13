@@ -15,17 +15,7 @@ class mainTest {
 	@DisplayName("TC1: normal number")
 	void testNormalNumber() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
-		String expected = "1";
-		String actaul = fizzbuzz.checkBuzzFizz(input);
-		assertEquals(expected,actaul);
+		int actaul = fizzbuzz.checkBuzzFizz(input);
+		assertEquals(1, actaul);
 	}
-	@Test
-	@DisplayName("TC2: buzzfizz number")
-	void testBuzzFizzNumber() {
-		FizzBuzz fizzbuzz = new FizzBuzz();
-		String expected = "3";
-		String actaul = fizzbuzz.checkBuzzFizz(input);
-		assertEquals(expected,actaul);
-	}
-
 }
