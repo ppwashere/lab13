@@ -32,4 +32,11 @@ class mainTest {
 		String actaul = fizzbuzz.checkBuzzFizz(5);
 		assertEquals("Buzz", actaul);
 	}
+	@Test
+	@DisplayName("TC4: mod 3 and 5 : FizzBuzz")
+	void testModFiveAndThreeNumber() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		String actaul = fizzbuzz.checkBuzzFizz(45);
+		assertEquals("FizzBuzz", actaul);
+	}
 }
