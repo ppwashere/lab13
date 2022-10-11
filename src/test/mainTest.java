@@ -22,6 +22,7 @@ class mainTest {
 	@DisplayName("TC2: mod 3 : Fizz")
 	void testModThreeNumber() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
+		
 		String actaul = fizzbuzz.checkBuzzFizz(3);
 		assertEquals("Fizz", actaul);
 	}
