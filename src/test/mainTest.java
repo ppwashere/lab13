@@ -39,4 +39,11 @@ class mainTest {
 		String actaul = fizzbuzz.checkBuzzFizz(45);
 		assertEquals("FizzBuzz", actaul);
 	}
+	@Test
+	@DisplayName("TC5: invalid")
+	void testInvalidNumber() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		String actaul = fizzbuzz.checkBuzzFizz(-15);
+		assertEquals("out of range", actaul);
+	}
 }
