@@ -15,7 +15,7 @@ class mainTest {
 	@DisplayName("TC1: normal number")
 	void testNormalNumber() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
-		int actaul = fizzbuzz.checkBuzzFizz(input);
+		int actaul = fizzbuzz.checkBuzzFizz(1);
 		assertEquals(1, actaul);
 	}
 }
