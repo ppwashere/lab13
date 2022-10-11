@@ -3,7 +3,10 @@ package main;
 public class FizzBuzz {
 
 	public String checkBuzzFizz(int input) {
-		if(input%3==0) {
+		if(input%3==0 && input%5==0) {
+			System.out.println("FizzBuzz");
+			return "FizzBuzz";
+		}else if(input%3==0) {
 			System.out.println("Fizz");
 			return "Fizz";
 			
