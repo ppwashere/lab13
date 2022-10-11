@@ -2,7 +2,7 @@ package main;
 
 public class FizzBuzz {
 
-	public String BuzzFizz(int input) {
+	public void BuzzFizz(int input) {
 		
 		
 		for(int i=1;i<=input;i++) {
@@ -20,7 +20,6 @@ public class FizzBuzz {
 			 }
 			   
 		}
-		return null;
 		
 		
 	}
