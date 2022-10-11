@@ -19,10 +19,17 @@ class mainTest {
 		assertEquals("1", actaul);
 	}
 	@Test
-	@DisplayName("TC2: mod 3 number")
+	@DisplayName("TC2: mod 3 : Fizz")
 	void testModThreeNumber() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
 		String actaul = fizzbuzz.checkBuzzFizz(3);
 		assertEquals("Fizz", actaul);
+	}
+	@Test
+	@DisplayName("TC3: mod 5 : Buzz")
+	void testModFiveNumber() {
+		FizzBuzz fizzbuzz = new FizzBuzz();
+		String actaul = fizzbuzz.checkBuzzFizz(5);
+		assertEquals("Buzz", actaul);
 	}
 }
